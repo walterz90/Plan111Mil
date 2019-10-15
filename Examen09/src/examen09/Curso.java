@@ -1,6 +1,9 @@
 
 package examen09;
 
+import java.util.Iterator;
+import java.util.List;
+
 /**
  *
  * @author Capacitacion07
@@ -8,14 +11,13 @@ package examen09;
 public class Curso {
     
     public String getRecuperatirio(String tema, float calificacion) {
-        String alum;
+        private List<String> alum;
         
-        Iterartor<String> itAlumno = alumnos.iterator();
+        Iterator<String> itAlumno = alumnos.iterator();
         Iterator<Examen> itExamen = examenes.iterator();
         
-        while(itAlumno.hasNext()) {
-            Examen e = itExamen.next();
-            alum = e.calificarRespuesta()
+        while(itExamen.hasNext()) {
+            itAlumno.contains());
             
         }
         
